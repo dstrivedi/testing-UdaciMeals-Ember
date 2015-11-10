@@ -1,53 +1,21 @@
 # Udaci-meals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo is for [Udacity](https://www.udacity.com/)'s Front End Frameworks course. This is the Ember 2.x version of the project.
 
-## Prerequisites
+## Required Software
 
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+* [Git](https://git-scm.com/)
+* [Node/NPM](https://nodejs.org/en/)
 * [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Getting Set Up
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* clone this repo
+* `cd` into the newly cloned project
+* install NPM dependencies via `npm install`
+* install Bower dependencies via `bower install`
 
-## Running / Development
+## View the app
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+* on the terminal, run `ember s`
+* go to [http://localhost:4200/](http://localhost:4200/)
