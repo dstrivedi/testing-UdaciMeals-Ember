@@ -1,0 +1,13 @@
+.items-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.items-container div {
+  text-align: center;
+}
+
+.items-container img {
+  max-width: 200px;
+}
