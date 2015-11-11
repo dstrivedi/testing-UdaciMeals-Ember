@@ -10,6 +10,7 @@ Router.map(function() {
 
   this.route('item', {path: '/item/:item_name'}, function() {
     this.route('nutrition');
+    this.route('reviews');
   });
 });
 

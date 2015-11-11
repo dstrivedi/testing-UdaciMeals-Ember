@@ -1,0 +1,7 @@
+<h3>Reviews</h3>
+<ul class="reviews-container">
+  {{#each model.reviews as |review|}}
+    <li class="review">{{review}}</li>
+  {{/each}}
+</ul>
+{{outlet}}
