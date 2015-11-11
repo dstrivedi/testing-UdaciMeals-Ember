@@ -5,5 +5,10 @@
   "url": "https://www.eatclub.com/s/dish/the-big-pig/",
   "description": "Better call the hambulance. Lots of ham, Swiss cheese, green leaf lettuce, tomatoes, and red onions on thick-cut nine-grain bread. Served with mayonnaise, Dijon mustard, Kettle chips, and a chocolate chip cookie.",
   "rating": 3.7,
-  "calories": 657
+  "calories": 657,
+  "reviews": [
+    "Big Sandwich... lots of meat. Enjoyed very much.",
+    "yum",
+    "Kinda gross"
+  ]
 }

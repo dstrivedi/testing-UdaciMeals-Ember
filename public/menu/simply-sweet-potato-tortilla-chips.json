@@ -5,5 +5,10 @@
   "url": "https://www.eatclub.com/snacks/catalog/",
   "description": "What do you get when you add sprouted whole grains & seeds to a corn tortilla chip? A Way Better Snack!",
   "rating": 4.1,
-  "calories": 170
+  "calories": 170,
+  "reviews": [
+    "These tasted SOOO good!",
+    "They're ok...the sweet potato flavor isn't all that strong.",
+    "I wish the bag was bigger!"
+  ]
 }

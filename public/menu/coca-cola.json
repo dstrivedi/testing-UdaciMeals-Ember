@@ -5,5 +5,10 @@
   "url": "http://www.coca-colaproductfacts.com/en/coca-cola-products/coca-cola/",
   "description": "Coca-Cola is the most popular soft drink in history, as well as the best-known brand in the world.",
   "rating": 5,
-  "calories": 260
+  "calories": 260,
+  "reviews": [
+    "I love it!",
+    "It always tastes the same - so refreshing, yum!",
+    "I bit too sweet."
+  ]
 }

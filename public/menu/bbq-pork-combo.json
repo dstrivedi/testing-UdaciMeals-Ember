@@ -5,5 +5,10 @@
   "url": "https://www.eatclub.com/s/dish/BBQ-Pork-Combo/",
   "description": "Sweet Chinese style BBQ pork served over egg fried rice. A side of steamed broccoli completes the meal.",
   "rating": 3.6,
-  "calories": 786
+  "calories": 786,
+  "reviews": [
+    "More veggies would be better. Overall, it is very good.",
+    "YUMMY",
+    "Not enough meat"
+  ]
 }
