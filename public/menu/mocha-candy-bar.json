@@ -1,0 +1,9 @@
+{
+  "id": "mocha-candy-bar",
+  "name": "Mocha Candy Bar",
+  "img": "mocha-candy-bar.png",
+  "url": "http://www.ochocandy.com/shop/bars/ocho-mocha-bar/",
+  "description": "Made with an espresso nougat infused with organic coffee and covered in delicious milk chocolate, you have to taste this bar to understand why it is so popular.",
+  "rating": 5,
+  "calories": 170
+}
