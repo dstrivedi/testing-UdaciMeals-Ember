@@ -1,3 +1,5 @@
+{{link-to "Back to full menu" 'menu'}}
+
 <h3>{{model.name}}</h3>
 
 <img class="item__image" src="menu/images/{{model.img}}" alt="{{model.name}}">
@@ -8,5 +10,8 @@
   <dt>Description</dt>
   <dd>{{model.description}}</dd>
 </dl>
+
+{{link-to "Nutrition" 'item.nutrition'}}
+{{link-to "Reviews" 'item.reviews'}}
 
 {{outlet}}
