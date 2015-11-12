@@ -2,66 +2,42 @@
 <h3>Salads</h3>
 <div class="items-container">
 {{#each model.salads as |salad|}}
-    <div>
-      <h4>{{salad.name}}</h4>
-      <img src="menu/images/{{salad.img}}" alt="{{salad.name}}">
-      <p>{{#link-to 'item' salad.id}}{{salad.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=salad}}
 {{/each}}
 </div>
 
 <h3>Sandwiches</h3>
 <div class="items-container">
 {{#each model.sandwiches as |sandwich|}}
-    <div>
-      <h4>{{sandwich.name}}</h4>
-      <img src="menu/images/{{sandwich.img}}" alt="{{sandwich.name}}">
-      <p>{{#link-to 'item' sandwich.id}}{{sandwich.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=sandwich}}
 {{/each}}
 </div>
 
 <h3>Main Meals</h3>
 <div class="items-container">
 {{#each model.mainMeals as |meal|}}
-    <div>
-      <h4>{{meal.name}}</h4>
-      <img src="menu/images/{{meal.img}}" alt="{{meal.name}}">
-      <p>{{#link-to 'item' meal.id}}{{meal.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=meal}}
 {{/each}}
 </div>
 
 <h3>Desserts</h3>
 <div class="items-container">
 {{#each model.desserts as |dessert|}}
-    <div>
-      <h4>{{dessert.name}}</h4>
-      <img src="menu/images/{{dessert.img}}" alt="{{dessert.name}}">
-      <p>{{#link-to 'item' dessert.id}}{{dessert.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=dessert}}
 {{/each}}
 </div>
 
 <h3>Drinks</h3>
 <div class="items-container">
 {{#each model.drinks as |drink|}}
-    <div>
-      <h4>{{drink.name}}</h4>
-      <img src="menu/images/{{drink.img}}" alt="{{drink.name}}">
-      <p>{{#link-to 'item' drink.id}}{{drink.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=drink}}
 {{/each}}
 </div>
 
 <h3>Snacks</h3>
 <div class="items-container">
 {{#each model.snacks as |snack|}}
-    <div>
-      <h4>{{snack.name}}</h4>
-      <img src="menu/images/{{snack.img}}" alt="{{snack.name}}">
-      <p>{{#link-to 'item' snack.id}}{{snack.name}}{{/link-to}}</p>
-    </div>
+    {{menu-item food=snack}}
 {{/each}}
 </div>
 {{outlet}}
