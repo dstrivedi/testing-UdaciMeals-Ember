@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Service.extend({
   selectedDay: 'Monday',
-  menuSelection: {
+  menuSelection: Ember.Object.create({
     Monday: {
       salad: '',
       sandwich: '',
@@ -43,5 +43,8 @@ export default Ember.Service.extend({
       drink: '',
       snack: ''
     }
+  }),
+  chooseMenuOption(menuCategory, menuItemName) {
+    this.set('menuSelection.' + this.get('selectedDay') + '.' + menuCategory, menuItemName);
   }
 });
