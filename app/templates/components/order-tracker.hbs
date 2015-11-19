@@ -3,7 +3,7 @@
     Select food for {{orderManager.selectedDay}}
   </div>
   {{#each-in orderManager.menuSelection as |day menuOrder|}}
-  <div {{action 'setDayTo' day}}>
+  <div class="{{if (eq day orderManager.selectedDay) 'active'}}" {{action 'setDayTo' day}}>
     {{day}}
     <dl>
       <dt>Salad</dt>
