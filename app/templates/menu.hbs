@@ -2,42 +2,42 @@
 <h3>Salads</h3>
 <ul class="items-container">
 {{#each model.salads as |salad|}}
-    {{menu-item food=salad}}
+    {{menu-item food=salad category='salad'}}
 {{/each}}
 </ul>
 
 <h3>Sandwiches</h3>
 <ul class="items-container">
 {{#each model.sandwiches as |sandwich|}}
-    {{menu-item food=sandwich}}
+    {{menu-item food=sandwich category='sandwich'}}
 {{/each}}
 </ul>
 
 <h3>Main Meals</h3>
 <ul class="items-container">
 {{#each model.mainMeals as |meal|}}
-    {{menu-item food=meal}}
+    {{menu-item food=meal category='meal'}}
 {{/each}}
 </ul>
 
 <h3>Desserts</h3>
 <ul class="items-container">
 {{#each model.desserts as |dessert|}}
-    {{menu-item food=dessert}}
+    {{menu-item food=dessert category='dessert'}}
 {{/each}}
 </ul>
 
 <h3>Drinks</h3>
 <ul class="items-container">
 {{#each model.drinks as |drink|}}
-    {{menu-item food=drink}}
+    {{menu-item food=drink category='drink'}}
 {{/each}}
 </ul>
 
 <h3>Snacks</h3>
 <ul class="items-container">
 {{#each model.snacks as |snack|}}
-    {{menu-item food=snack}}
+    {{menu-item food=snack category='snack'}}
 {{/each}}
 </ul>
 {{outlet}}
