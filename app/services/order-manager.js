@@ -46,5 +46,8 @@ export default Ember.Service.extend({
   }),
   chooseMenuOption(menuCategory, menuItemName) {
     this.set('menuSelection.' + this.get('selectedDay') + '.' + menuCategory, menuItemName);
+  },
+  setSelectedDayTo(day) {
+    this.set('selectedDay', day);
   }
 });

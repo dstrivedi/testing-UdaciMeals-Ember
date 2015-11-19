@@ -1,9 +1,9 @@
 <div class="order-tracker">
   <div>
-    Selection for {{orderManager.selectedDay}}
+    Select food for {{orderManager.selectedDay}}
   </div>
   {{#each-in orderManager.menuSelection as |day menuOrder|}}
-  <div>
+  <div {{action 'setDayTo' day}}>
     {{day}}
     <dl>
       <dt>Salad</dt>
