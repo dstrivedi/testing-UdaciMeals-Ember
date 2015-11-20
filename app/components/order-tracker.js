@@ -5,6 +5,9 @@ export default Ember.Component.extend({
   actions: {
     setDayTo(day) {
       this.get('orderManager').setSelectedDayTo(day);
+    },
+    remove(day, menuCategory) {
+      this.get('orderManager').removeMenuOption(day, menuCategory);
     }
   }
 });

@@ -7,17 +7,41 @@
     {{day}}
     <dl>
       <dt>Salad</dt>
-      <dd>{{menuOrder.salad}}</dd>
+      <dd>
+	{{#if menuOrder.salad}}
+	  {{menuOrder.salad}} <span class="remove-item" {{action 'remove' day 'salad'}}>&#10006;</span>
+	{{/if}}
+      </dd>
       <dt>Sandwich</dt>
-      <dd>{{menuOrder.sandwich}}</dd>
+      <dd>
+	{{#if menuOrder.sandwich}}
+	  {{menuOrder.sandwich}} <span class="remove-item" {{action 'remove' day 'sandwich'}}>&#10006;</span>
+	{{/if}}
+      </dd>
       <dt>Meal</dt>
-      <dd>{{menuOrder.meal}}</dd>
+      <dd>
+	{{#if menuOrder.meal}}
+	  {{menuOrder.meal}} <span class="remove-item" {{action 'remove' day 'meal'}}>&#10006;</span>
+	{{/if}}
+      </dd>
       <dt>Dessert</dt>
-      <dd>{{menuOrder.dessert}}</dd>
+      <dd>
+	{{#if menuOrder.dessert}}
+	  {{menuOrder.dessert}} <span class="remove-item" {{action 'remove' day 'dessert'}}>&#10006;</span>
+	{{/if}}
+      </dd>
       <dt>Drink</dt>
-      <dd>{{menuOrder.drink}}</dd>
+      <dd>
+	{{#if menuOrder.drink}}
+	  {{menuOrder.drink}} <span class="remove-item" {{action 'remove' day 'drink'}}>&#10006;</span>
+	{{/if}}
+      </dd>
       <dt>Snack</dt>
-      <dd>{{menuOrder.snack}}</dd>
+      <dd>
+	{{#if menuOrder.snack}}
+	  {{menuOrder.snack}} <span class="remove-item" {{action 'remove' day 'snack'}}>&#10006;</span>
+	{{/if}}
+      </dd>
     </dl>
   </div>
   {{/each-in}}

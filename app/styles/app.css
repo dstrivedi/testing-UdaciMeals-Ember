@@ -26,3 +26,8 @@
 .order-tracker .active {
   border: 1px solid red;
 }
+
+.order-tracker .remove-item {
+  color: red;
+  cursor: pointer;
+}
