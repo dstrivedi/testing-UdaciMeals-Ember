@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('menu');
+  this.route('menu', {path: '/'});
 
   this.route('item', {path: '/item/:item_name'}, function() {
     this.route('nutrition');
